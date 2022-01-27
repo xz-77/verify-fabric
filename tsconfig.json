@@ -10,6 +10,7 @@
     "resolveJsonModule": true,
     "outDir": "./dist",
     "baseUrl": "./",
-    "declaration": true
+    "declaration": true,
+    "removeComments": true
   }
 }

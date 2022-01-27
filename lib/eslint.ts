@@ -75,20 +75,6 @@ module.exports = {
         format: ['PascalCase'],
         prefix: ['is', 'should', 'has', 'can', 'did', 'will', 'show'],
       },
-      {
-        selector: 'objectLiteralProperty', // (有待考证影响范围)匹配任何对象文字属性。不匹配具有直接函数表达式或箭头函数表达式值的属性 // 因为BEM情况的存在，默认不校验，指定情况制定校验，不做默认校验处理
-        format: null,
-      },
-      // {
-      //   selector: 'variable',
-      //   types: ['string'],
-      //   format: ['UPPER_CASE'],
-      //   custom: { regex: '^ICON_.*', match: true }, // 思考:想匹配图片的命名规则，但是目前只能匹配到名称的正则，而不能是值的正则匹配
-      // },
-      // {
-      //   selector: 'function',
-      //   format: ['camelCase'], // 没什么用
-      // },
     ],
     'no-plusplus': 0,
     'compat/compat': 0,
