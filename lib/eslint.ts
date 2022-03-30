@@ -70,7 +70,6 @@ module.exports = {
       },
       {
         selector: 'variable',
-        // modifiers: ['const'],
         types: ['boolean'], // 校验Boolean类型的 命名规则
         format: ['PascalCase'],
         prefix: ['is', 'should', 'has', 'can', 'did', 'will', 'show'],
@@ -80,5 +79,7 @@ module.exports = {
     'compat/compat': 0,
     // https://github.com/import-js/eslint-plugin-import/blob/v2.25.3/docs/rules/prefer-default-export.md
     'import/prefer-default-export': 0,
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+    '@typescript-eslint/explicit-function-return-type': 'off',
   },
 };

@@ -33,9 +33,9 @@ module.exports = {
 #### in .prettierrc.js
 
 ```javascript
-const fabric = require('verify-fabric/prettier');
+const fabric = require('verify-fabric/dist/prettier');
 
 module.exports = {
-  ...fabric.prettier,
+  ...fabric,
 };
 ```

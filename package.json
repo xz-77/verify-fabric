@@ -8,6 +8,12 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
+  "keywords": [
+    "prettier",
+    "eslint",
+    "stylelint",
+    "react"
+  ],
   "scripts": {
     "build": "yarn run clean && tsc --skipLibCheck",
     "release": "standard-version",
@@ -26,10 +32,6 @@
     "dist"
   ],
   "dependencies": {
-    "@babel/cli": "^7.16.8",
-    "@babel/core": "^7.16.5",
-    "@babel/eslint-parser": "^7.16.5",
-    "@babel/preset-env": "^7.16.5",
     "@typescript-eslint/eslint-plugin": "^4.31.2",
     "@typescript-eslint/parser": "^4.31.2",
     "eslint": "^7.32.0",
