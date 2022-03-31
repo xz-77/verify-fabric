@@ -30,32 +30,20 @@ module.exports = {
     react: {
       version: 'detect',
     },
-    'import/parsers': {
-      'babel-eslint': ['.js', '.jsx'],
-      '@typescript-eslint/parser': ['.ts', '.tsx'],
-    },
-    'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
   },
-  overrides: [
-    {
-      files: ['*.ts', '*.tsx'],
-      rules: {
-        '@typescript-eslint/no-unused-vars': 2,
-        // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-array-index-key.md
-        'react/no-array-index-key': 1,
-        // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-default-props.md
-        'react/require-default-props': 0,
-      },
-    },
-  ],
   rules: {
     'no-var': 2, // 禁止使用 var
-    // https://github.com/import-js/eslint-plugin-import/blob/v2.25.3/docs/rules/extensions.md
-    'import/extensions': [1, 'never', { scss: 'always', json: 'always' }],
     'import/no-unresolved': 0,
     // https://eslint.org/docs/rules/no-use-before-define
     'no-use-before-define': 0,
-    'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx', 'js'] }],
+    '@typescript-eslint/no-use-before-define': 0,
+    'no-plusplus': 0,
+    // https://github.com/import-js/eslint-plugin-import/blob/v2.25.3/docs/rules/prefer-default-export.md
+    'import/prefer-default-export': 0,
+    '@typescript-eslint/explicit-module-boundary-types': 0,
+    '@typescript-eslint/explicit-function-return-type': 0,
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': 2,
     // https://github.com/typescript-eslint/typescript-eslint/blob/v2.34.0/packages/eslint-plugin/docs/rules/naming-convention.md
     '@typescript-eslint/naming-convention': [
       1,
@@ -75,11 +63,5 @@ module.exports = {
         prefix: ['is', 'should', 'has', 'can', 'did', 'will', 'show'],
       },
     ],
-    'no-plusplus': 0,
-    'compat/compat': 0,
-    // https://github.com/import-js/eslint-plugin-import/blob/v2.25.3/docs/rules/prefer-default-export.md
-    'import/prefer-default-export': 0,
-    '@typescript-eslint/explicit-module-boundary-types': 'off',
-    '@typescript-eslint/explicit-function-return-type': 'off',
   },
 };
