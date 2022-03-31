@@ -44,6 +44,9 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 0,
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': 2,
+    'import/extensions': 0,
+    'react/display-name': 0,
+    'react/jsx-filename-extension': 0,
     // https://github.com/typescript-eslint/typescript-eslint/blob/v2.34.0/packages/eslint-plugin/docs/rules/naming-convention.md
     '@typescript-eslint/naming-convention': [
       1,
