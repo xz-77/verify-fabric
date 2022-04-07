@@ -39,3 +39,12 @@ module.exports = {
   ...fabric,
 };
 ```
+
+## Q&A
+
+* Q:微信小程序的样式检查报错`Unexpected unknown type selector "page"`
+* A:规则可以添加`'selector-type-no-unknown': null`
+
+
+* Q:错误提示`The "syntax" option is no longer available. You should install an appropriate syntax, e.g. postcss-scss, and use the "customSyntax" option`
+* A:stylelint和postcss-less的版本兼容问题，可以给stylelint降级处理，例如在项目中安装`yarn add stylelint@12.6.1`即可
