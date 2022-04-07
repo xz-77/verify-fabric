@@ -47,4 +47,4 @@ module.exports = {
 
 
 * Q:错误提示`The "syntax" option is no longer available. You should install an appropriate syntax, e.g. postcss-scss, and use the "customSyntax" option`
-* A:stylelint和postcss-less的版本兼容问题，可以给stylelint降级处理，例如在项目中安装`yarn add stylelint@12.6.1`即可
+* A:stylelint和postcss-less的版本兼容问题，可以给stylelint降级处理，例如在项目中安装`yarn add stylelint@x.x.x`即可
