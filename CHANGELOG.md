@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/xz-77/verify-fabric/compare/v1.1.4...v1.2.0) (2022-04-11)
+
+
+### Features
+
+* 修改prettier配置 ([5646961](https://github.com/xz-77/verify-fabric/commit/5646961f1a10eeeb6e0c1d3e012342b16c5992cf))
+
 ## 1.1.0 (2022-01-25)
 
 
