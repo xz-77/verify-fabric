@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/xz-77/verify-fabric/compare/v1.2.0...v1.3.0) (2022-07-05)
+
+
+### Features
+
+* 修改eslint规则 ([3f011d8](https://github.com/xz-77/verify-fabric/commit/3f011d8b44bf24e95cbe7d7da122292f3b32a936))
+
 ## [1.2.0](https://github.com/xz-77/verify-fabric/compare/v1.1.4...v1.2.0) (2022-04-11)
 
 
