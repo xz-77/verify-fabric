@@ -1,12 +1,28 @@
 # verify-fabric
 ## 一个包含 prettier，eslint，stylelint 的配置文件合集
 
-### use
+### 安装verify-fabric
 
-```npm
-npm i verify-fabric --save-dev
-yarn add verify-fabric -D
+```bash
+$ npm i verify-fabric --save-dev
+# or
+$ yarn add verify-fabric -D
 ```
+
+### 用于自动安装peerDependencies依赖包
+
+```bash
+# If you're using npm
+$ npm install -g install-peerdeps
+
+# If you're using yarn
+$ yarn global add install-peerdeps
+
+cd my-project-directory
+
+$ install-peerdeps verify-fabric -dev
+```
+
 
 #### in .eslintrc.js
 
