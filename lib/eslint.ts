@@ -30,6 +30,14 @@ module.exports = {
       version: 'detect',
     },
   },
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      rules: {
+        '@typescript-eslint/no-unused-vars': [2, { args: 'none' }],
+      },
+    },
+  ],
   rules: {
     'no-var': 2, // 禁止使用 var
     'arrow-body-style': 0,
