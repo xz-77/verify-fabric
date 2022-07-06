@@ -43,10 +43,11 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 0,
     '@typescript-eslint/explicit-function-return-type': 0,
     'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': 2,
+    '@typescript-eslint/no-unused-vars': 1,
     'import/extensions': 0,
     'react/display-name': 0,
     'react/jsx-filename-extension': 0,
+    'react/function-component-definition': 0,
     '@typescript-eslint/naming-convention': [
       1,
       {
