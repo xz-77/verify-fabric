@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/xz-77/verify-fabric/compare/v1.4.3...v1.5.0) (2022-07-25)
+
+
+### Features
+
+* 完善规则 ([349716d](https://github.com/xz-77/verify-fabric/commit/349716d148294c93bfca1e29d6339eec435c4e04))
+
 ### [1.4.3](https://github.com/xz-77/verify-fabric/compare/v1.4.2...v1.4.3) (2022-07-25)
 
 ### [1.4.1](https://github.com/xz-77/verify-fabric/compare/v1.4.0...v1.4.1) (2022-07-06)
