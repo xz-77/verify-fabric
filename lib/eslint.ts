@@ -41,8 +41,9 @@ module.exports = {
   rules: {
     'no-var': 2, // 禁止使用 var
     'arrow-body-style': 0,
-    'react/no-unused-prop-types': 1,
     'import/order': 1,
+    'no-shadow': 0,
+    'react/prop-types': 0,
     'import/no-unresolved': 0,
     'no-use-before-define': 0,
     '@typescript-eslint/no-use-before-define': 0,
@@ -53,9 +54,15 @@ module.exports = {
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': 1,
     'import/extensions': 0,
+    '@typescript-eslint/no-empty-function': 0,
     'react/display-name': 0,
     'react/jsx-filename-extension': 0,
     'react/function-component-definition': 0,
+    'compat/compat': 0,
+    'react/jsx-no-constructed-context-values': 0,
+    'react/require-default-props': 0,
+    'import/no-cycle': 0,
+    'react/no-unused-prop-types': 0,
     '@typescript-eslint/naming-convention': [
       1,
       {

@@ -1,4 +1,7 @@
-# verify-fabric
+# 新手指南
+
+[verify-fabric](https://github.com/xz-77/verify-fabric)
+
 ## 一个包含 prettier，eslint，stylelint 的配置文件合集
 
 ### 安装verify-fabric
@@ -27,9 +30,13 @@ $ install-peerdeps verify-fabric -dev
 #### in .eslintrc.js
 
 ```javascript
+
+const eslint = require('verify-fabric/dist/eslint');
+
 module.exports = {
-  extends: [require.resolve('verify-fabric/dist/eslint')],
+  ...eslint,
   rules: {
+    ...eslint.rules,
     // your rules
   },
 };
@@ -38,9 +45,13 @@ module.exports = {
 #### in .stylelintrc.js
 
 ```javascript
+
+const stylelint = require('verify-fabric/dist/stylelint');
+
 module.exports = {
-  extends: [require.resolve('verify-fabric/dist/stylelint')],
+  ...stylelint,
   rules: {
+    ...stylelint.rules
     // your rules
   },
 };
@@ -56,11 +67,12 @@ module.exports = {
 };
 ```
 
-## Q&A
+## 常见问题
 
-* Q:微信小程序的样式检查报错`Unexpected unknown type selector "page"`
-* A:规则可以添加`'selector-type-no-unknown': null`
+### 微信小程序的样式检查报错`Unexpected unknown type selector "page"`
 
+规则可以添加`'selector-type-no-unknown': null`
 
-* Q:错误提示`The "syntax" option is no longer available. You should install an appropriate syntax, e.g. postcss-scss, and use the "customSyntax" option`
-* A:stylelint和postcss-less的版本兼容问题，可以给stylelint降级处理，例如在项目中安装`yarn add stylelint@x.x.x`即可
+### 错误提示`The "syntax" option is no longer available. You should install an appropriate syntax, e.g. postcss-scss, and use the "customSyntax" option`
+
+stylelint 和 postcss-less 的版本兼容问题，可以给 stylelint 降级处理，例如在项目中安装`yarn add stylelint@x.x.x`即可
