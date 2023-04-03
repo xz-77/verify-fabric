@@ -1,6 +1,6 @@
 {
   "name": "verify-fabric",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "集合eslint、stylelint、prettier检查",
   "main": "./dist/index",
   "private": false,
