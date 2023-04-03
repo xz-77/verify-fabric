@@ -1,6 +1,6 @@
 module.exports = {
   extends: ['stylelint-config-standard', 'stylelint-config-rational-order'],
-  customSyntax: 'postcss-scss',
+  customSyntax: 'postcss-less',
   plugins: ['stylelint-declaration-block-no-ignored-properties'],
   rules: {
     'plugin/declaration-block-no-ignored-properties': true, //不允许由于同一规则中的另一个属性值而被忽略的属性值 如：a { display: inline; width: 100px; }
